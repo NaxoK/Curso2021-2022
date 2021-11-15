@@ -48,7 +48,7 @@
     rr:objectMap [
       rml:reference "DATETIME";
       rr:termType rr:Literal;
-      rr:dataType xsd:dateTime
+      rr:datatype xsd:dateTime
     ]
   ];
   
@@ -173,7 +173,7 @@
     rr:objectMap [
       rml:reference "LESIVIDAD";
 	  rr:termType rr:Literal;
-      rr:dataType xsd:string
+      rr:datatype xsd:string
     ]
   ].
 
@@ -193,7 +193,7 @@
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "ID_DISTRICT"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:int
     ]
   ];
@@ -202,7 +202,7 @@
     rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NOMBRE"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:string
     ]
   ].
